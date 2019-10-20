@@ -27,3 +27,8 @@ UnStaging Files:
 #git reset 		(remove files from staging area) 
 #git reset --hard 	(can remove changes in files if they are not committed
 
+
+
+Ignoring Files:
+make a file with extension .gitignore
+then add file path name extension or directory in above file and save 
