@@ -1,19 +1,29 @@
-Basic Workflow:::
-1st make directory for keeping repo
-Make further folder for your work
-go into diretory into terminal
+Basic Local Repositery Workflow:
+
+make directory for keeping repos
+Make further folder for keeping your work rep separate
+go into directory into terminal
 initialize repos in this dir
-#git init
-this will crete hidden folder .git in your current workig directory
-Make some files .txt 
+
+1#git init	(this will crete hidden folder .git in your current workig directory)
+
+Make some files .txt or etc 
+
 check status
-#git status
+2#git status
+
 add these files into staging area
-#git add ist.txtf or
+3#git add ist.txtf or
 #git add *.txt
 #git add
+
 commit these files 
-#git commit -m "your msg like updaitng login etc etc"
-check status 
+4#git commit -m "your msg like updaitng login etc etc"
+
 check log
-#git log
+5#git log
+
+UnStaging Files:
+#git reset 		(remove files from staging area) 
+#git reset --hard 	(can remove changes in files if they are not committed
+
