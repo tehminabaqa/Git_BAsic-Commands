@@ -37,8 +37,17 @@ then add file path name extension or directory in above file and save
 Brances Commands:in git brances are mandatory(master branch by default)
 #git branch
 #git branch -v
-#git branch new-dev
-#git checkout new-dev
-#git merge new-dev
-#git log new-dev master
+#git branch dev
+#git checkout dev
+#git merge dev
+#git log dev master
+#git log dev..master
+#git log master..dev
 
+
+Stasing:
+#git stash			save local changes
+#git stash save <name>		save local changes with name
+#git stash list			show list of stashes 
+#git stash pop
+#git stash apply stashname
