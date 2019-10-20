@@ -1,0 +1,19 @@
+Basic Workflow:::
+1st make directory for keeping repo
+Make further folder for your work
+go into diretory into terminal
+initialize repos in this dir
+#git init
+this will crete hidden folder .git in your current workig directory
+Make some files .txt 
+check status
+#git status
+add these files into staging area
+#git add ist.txtf or
+#git add *.txt
+#git add
+commit these files 
+#git commit -m "your msg like updaitng login etc etc"
+check status 
+check log
+#git log
