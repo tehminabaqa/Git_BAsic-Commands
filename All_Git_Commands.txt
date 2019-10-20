@@ -32,3 +32,13 @@ UnStaging Files:
 Ignoring Files:
 make a file with extension .gitignore
 then add file path name extension or directory in above file and save 
+
+
+Brances Commands:in git brances are mandatory(master branch by default)
+#git branch
+#git branch -v
+#git branch new-dev
+#git checkout new-dev
+#git merge new-dev
+#git log new-dev master
+
