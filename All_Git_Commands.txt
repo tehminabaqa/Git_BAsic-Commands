@@ -49,5 +49,30 @@ Stasing:
 #git stash			save local changes
 #git stash save <name>		save local changes with name
 #git stash list			show list of stashes 
-#git stash pop
-#git stash apply stashname
+#git stash pop 
+#git stash apply stashname	remove from stash
+
+
+2 ways for working on remote repo: 
+1= is directly make repo from github then clone and do the given below all the stuff
+2= move/publish  local repo to github
+
+
+For Making Remote Repositries:
+#git push			push changes to remote repo
+#git fetch			fetch changes from remote repo
+#git merge			mrge changes that was fetched
+#git pull			fetch and merge changes from remote repo
+#git remote -v			shows remote urls(where is your local repo placed on remote repo)
+#git remote show origin		shows details of origin
+#git remote add reponame	add remote repo in local repo
+
+move/publish  local repo to github:
+#create repo on github
+#open terminal and run following command
+#git remote add origin _url of repo of github repo___
+#git push -u origin master
+#git push origin master			mention which remote repo and in which branch you want to push
+#git log origin/master	 		git log remote/branch 	show logs of from that branch of remote
+#
+#
